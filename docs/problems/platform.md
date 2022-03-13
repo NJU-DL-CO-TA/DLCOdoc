@@ -19,3 +19,18 @@ sort: 2
 
 你不能拷贝到虚拟环境里。这主要是出于学术诚信方面的考虑（你懂的）。
 如果这个东西真的是你自己做的，你完全可以很快地在虚拟环境里再做一遍。
+
+### 不小心删除了子电路or修改了引脚，改不回去了，怎么办？
+
+可以用git回退到以前的版本。先在左上角打开终端：
+
+![终端](terminal.png "terminal")
+
+执行以下命令：
+
+```bash
+cd /data/workspace/myshixun   # change directory
+git reset --hard HEAD         # HEAD is the pointer to the current branch reference
+```
+
+可以回退到做实验之前的状态。
