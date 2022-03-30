@@ -37,4 +37,4 @@ git reset --hard HEAD         # HEAD is the pointer to the current branch refere
 ```
 
 可以回退到做实验之前的状态。
-此外，也可以改变`git reset`的参数，使其只恢复某个特定的的文件，具体怎样操作就需要你RTFM/STFW了。
+此外，也可以改变`git reset`的参数，使其只恢复某个特定的文件，具体怎样操作就需要你RTFM/STFW了。
