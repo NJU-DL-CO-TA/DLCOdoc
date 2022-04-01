@@ -4,6 +4,7 @@ sort: 2
 # 怎样写实验报告
 
 这里以[实验一](https://github.com/NJU-DL-CO-TA/DLCOdoc/blob/main/assets/%E5%AE%9E%E9%AA%8C1%20%E5%9F%BA%E6%9C%AC%E9%80%BB%E8%BE%91%E9%83%A8%E4%BB%B6%E8%AE%BE%E8%AE%A1.pdf)为例，讲一讲怎么写实验报告。
+本文综合了群文件里的[这个文档](https://github.com/NJU-DL-CO-TA/DLCOdoc/blob/main/assets/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E4%B8%BB%E8%A6%81%E5%86%85%E5%AE%B9.pdf)与群文件里的实验报告模板。
 以下给出的是实验报告的部分 Latex 代码。
 你也可以用 MS Word、markdown这样的工具完成实验报告。
 需要注意：
