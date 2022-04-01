@@ -58,10 +58,39 @@ Logisim：https://github.com/Logisim-Ita/Logisim
 
 ### 整体方案设计
 
+```Latex
+\subsubsection{整体方案设计}
+```
+
+#### 顶层模块设计
+
+对于比较简单的电路，不需要画顶层模块设计图。
+
+```Latex
+实验电路较为简单，不需要顶层模块设计图。
+```
+
+但是对于结构比较复杂的电路，这种图是必要的（这是我在《数字逻辑与计算机组成实验》课程的报告节选）：
+
+![草图](draft.png "draft")
+
+画图可以手绘，也可以使用 ProcessOn 这样的工具。
+
+```Latex
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=0.8\textwidth]{你的顶层模块设计图}
+  \caption{xxx顶层模块设计图}
+\end{figure}
+
+其中，xxx模块的作用是xxx，xxx模块的作用是xxx……
+```
+
+#### 输入输出引脚
+
 在这里说明每个引脚的作用。
 
 ```Latex
-\subsubsection{整体方案设计}
 \begin{table}[htb]
   \centering
   \begin{tabular}{|c|c|}
@@ -69,7 +98,7 @@ Logisim：https://github.com/Logisim-Ita/Logisim
     XYZ & XYZ的作用 \\ \hline
     F   & F的作用 \\ \hline
   \end{tabular}
-  \caption{3输入多数表决器顶层设计}
+  \caption{3输入多数表决器引脚作用}
 \end{table}
 ```
 
@@ -79,17 +108,14 @@ Logisim：https://github.com/Logisim-Ita/Logisim
 ### 原理图和电路图
 
 原理图和电路图是不一样的。
-原理图可能是比较粗糙的（这是我在《数字逻辑与计算机组成实验》课程的报告节选）：
 
-![草图](draft.png "draft")
+原理图是这样的：
 
-也可以直接从实验讲义里截图（以下是实验1.3的讲义截图）：
+![原理图](screenshot.png "screenshot")
 
-![截图](screenshot.png "screenshot")
+电路图是这样的：
 
-我们并不会因为原理图做得好看就给你加分。
-
-而电路图应当是Logisim的电路截图。
+![电路图](circ.png "circ")
 
 ```Latex
 \subsubsection{原理图和电路图}
