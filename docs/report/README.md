@@ -52,7 +52,7 @@ Logisim：https://github.com/Logisim-Ita/Logisim
 
 ```Latex
 \section{实验内容}
-\subsection{利用基本逻辑门设计一个3输入多数表决器。}
+\subsection{利用基本逻辑门设计一个3输入多数表决器}
 ```
 
 #### 整体方案设计
